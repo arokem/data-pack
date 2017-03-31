@@ -10,4 +10,5 @@ setup(
     download_url = 'https://github.com/data-pack/data-pack/archive/0.0.tar.gz',
     keywords = ['data', 'packaging', 'science'],
     classifiers = [],
+    requires=["requests"]
 )
