@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
+from setuptools import find_packages, setup
 
-from distutils.core import setup
 setup(
     name='data-pack',
-    packages=['datapack'],
+    packages=find_packages(),
     version='0.0',
     description='Data packages',
     author='Stéfan van der Walt',
